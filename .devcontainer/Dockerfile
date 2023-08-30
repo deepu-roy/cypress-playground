@@ -1,4 +1,4 @@
-FROM public.ecr.aws/bitnami/node:16 AS dev
+FROM cypress/included AS dev
 
 # https://docs.cypress.io/guides/continuous-integration/introduction#Dependencies
 RUN apt-get update && \
