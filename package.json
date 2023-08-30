@@ -1,0 +1,22 @@
+{
+  "name": "cypress-playground",
+  "version": "1.0.0",
+  "description": "This is for creating a github codespace for interviews",
+  "main": "-",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepu-roy/cypress-playground.git"
+  },
+  "author": "Deepu Roy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deepu-roy/cypress-playground/issues"
+  },
+  "homepage": "https://github.com/deepu-roy/cypress-playground#readme",
+  "devDependencies": {
+    "cypress": "^13.0.0"
+  }
+}
